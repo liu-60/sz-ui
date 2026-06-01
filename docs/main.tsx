@@ -120,13 +120,13 @@ function App() {
             <div>
               <h3>安装包</h3>
               <pre>
-                <code>{`npm install @liuling/sz-ui react react-dom`}</code>
+                <code>{`npm install @liuling2760/sz-ui react react-dom`}</code>
               </pre>
             </div>
             <div>
               <h3>引入样式</h3>
               <pre>
-                <code>{`import '@liuling/sz-ui/dist/style.css';`}</code>
+                <code>{`import '@liuling2760/sz-ui/dist/style.css';`}</code>
               </pre>
             </div>
           </div>
@@ -180,7 +180,7 @@ function App() {
               </div>
             </div>
             <pre>
-              <code>{`import { Modal } from '@liuling/sz-ui';
+              <code>{`import { Modal } from '@liuling2760/sz-ui';
 
 <Modal
   open={open}
@@ -219,7 +219,7 @@ function App() {
               ) : null}
             </div>
             <pre>
-              <code>{`import { Message } from '@liuling/sz-ui';
+              <code>{`import { Message } from '@liuling2760/sz-ui';
 
 <Message type="success" title="操作成功">
   当前配置已保存，可以继续下一步。

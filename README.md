@@ -5,21 +5,21 @@ SZ UI 是一个轻量 React + TypeScript 组件库示例，使用 webpack 打包
 ## 安装
 
 ```bash
-npm install @liuling/sz-ui react react-dom
+npm install @liuling2760/sz-ui react react-dom
 ```
 
 在应用入口引入样式：
 
 ```ts
-import '@liuling/sz-ui/dist/style.css';
+import '@liuling2760/sz-ui/dist/style.css';
 ```
 
 ## 使用
 
 ```tsx
 import { useState } from 'react';
-import { Modal } from '@liuling/sz-ui';
-import '@liuling/sz-ui/dist/style.css';
+import { Modal } from '@liuling2760/sz-ui';
+import '@liuling2760/sz-ui/dist/style.css';
 
 export function Demo() {
   const [open, setOpen] = useState(false);
@@ -66,8 +66,8 @@ export function Demo() {
 ## Message 使用
 
 ```tsx
-import { Message } from '@liuling/sz-ui';
-import '@liuling/sz-ui/dist/style.css';
+import { Message } from '@liuling2760/sz-ui';
+import '@liuling2760/sz-ui/dist/style.css';
 
 export function Notice() {
   return (
