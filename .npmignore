@@ -1,0 +1,9 @@
+src
+docs
+public
+webpack.*.js
+tsconfig*.json
+eslint.config.mjs
+vercel.json
+node_modules
+dist-docs
